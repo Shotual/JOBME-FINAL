@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3C4C361FBB1A7B005A83FA /* CompruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C4C351FBB1A7B005A83FA /* CompruebaViewController.swift */; };
 		1C42D5001FB990C200990CAC /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C42D4FF1FB990C200990CAC /* DataHolder.swift */; };
-		1C42D5021FB992BA00990CAC /* usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C42D5011FB992BA00990CAC /* usuarios.swift */; };
 		1C42D5041FB9943700990CAC /* VCRegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C42D5031FB9943700990CAC /* VCRegistroViewController.swift */; };
 		1C42D5061FB9950000990CAC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C42D5051FB9950000990CAC /* Login.swift */; };
 		1C7A96871F9DDFC700C98A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */; };
@@ -20,8 +18,13 @@
 		1C7A969C1F9DDFC700C98A94 /* JobHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A969B1F9DDFC700C98A94 /* JobHubTests.swift */; };
 		1C7A96A71F9DDFC700C98A94 /* JobHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A96A61F9DDFC700C98A94 /* JobHubUITests.swift */; };
 		65AC4692F236869603753CDC /* Pods_JobHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773FE5BE2F156D368BB7645E /* Pods_JobHubTests.framework */; };
-		915E5C8B33340150D4F94D03 /* Pods_JobHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88556FD3D76D9D2B0DC813DE /* Pods_JobHub.framework */; };
-		994F6CD01FBB420100699C84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994F6CCF1FBB420100699C84 /* GoogleService-Info.plist */; };
+		915E5C8B33340150D4F94D03 /* Pods_JobHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88556FD3D76D9D2B0DC813DE /* Pods_JobHub.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		994F6CD21FBB4EE100699C84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994F6CD11FBB4EE100699C84 /* GoogleService-Info.plist */; };
+		994F6CD41FBB543900699C84 /* VCRegistroEmpresaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6CD31FBB543900699C84 /* VCRegistroEmpresaViewController.swift */; };
+		99AA819D1FC44604001D3155 /* JobMeTraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA819C1FC44604001D3155 /* JobMeTraVC.swift */; };
+		99AA819F1FC446F6001D3155 /* JobMeEmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA819E1FC446F6001D3155 /* JobMeEmVC.swift */; };
+		99AA81A11FC466CE001D3155 /* Empresas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA81A01FC466CE001D3155 /* Empresas.swift */; };
+		99EF28691FC338BD00B7B75B /* OfertasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EF28681FC338BD00B7B75B /* OfertasVC.swift */; };
 		F44947CA15C6FD325F056649 /* Pods_JobHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF259EF562D703BD6AFDA08 /* Pods_JobHubUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C3C4C351FBB1A7B005A83FA /* CompruebaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompruebaViewController.swift; sourceTree = "<group>"; };
 		1C42D4FF1FB990C200990CAC /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
-		1C42D5011FB992BA00990CAC /* usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usuarios.swift; sourceTree = "<group>"; };
 		1C42D5031FB9943700990CAC /* VCRegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistroViewController.swift; sourceTree = "<group>"; };
 		1C42D5051FB9950000990CAC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		1C7A96831F9DDFC700C98A94 /* JobHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +66,12 @@
 		773FE5BE2F156D368BB7645E /* Pods_JobHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7A1F11ECD1C75EDF6F583E /* Pods-JobHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubUITests/Pods-JobHubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		88556FD3D76D9D2B0DC813DE /* Pods_JobHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		994F6CCF1FBB420100699C84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		994F6CD11FBB4EE100699C84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		994F6CD31FBB543900699C84 /* VCRegistroEmpresaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistroEmpresaViewController.swift; sourceTree = "<group>"; };
+		99AA819C1FC44604001D3155 /* JobMeTraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMeTraVC.swift; sourceTree = "<group>"; };
+		99AA819E1FC446F6001D3155 /* JobMeEmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMeEmVC.swift; sourceTree = "<group>"; };
+		99AA81A01FC466CE001D3155 /* Empresas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresas.swift; sourceTree = "<group>"; };
+		99EF28681FC338BD00B7B75B /* OfertasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertasVC.swift; sourceTree = "<group>"; };
 		A8C1D5DB24F763CDE4C9EF90 /* Pods-JobHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubUITests/Pods-JobHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8C4FE844993A99A90ADF9B7 /* Pods-JobHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobHubTests/Pods-JobHubTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEE3A19FE676CBADA577E2E4 /* Pods-JobHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobHub/Pods-JobHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +132,7 @@
 		1C7A96851F9DDFC700C98A94 /* JobHub */ = {
 			isa = PBXGroup;
 			children = (
-				994F6CCF1FBB420100699C84 /* GoogleService-Info.plist */,
+				994F6CD11FBB4EE100699C84 /* GoogleService-Info.plist */,
 				1C7A96861F9DDFC700C98A94 /* AppDelegate.swift */,
 				1C7A96881F9DDFC700C98A94 /* ViewController.swift */,
 				1C7A968A1F9DDFC700C98A94 /* Main.storyboard */,
@@ -134,10 +140,13 @@
 				1C7A968F1F9DDFC700C98A94 /* LaunchScreen.storyboard */,
 				1C7A96921F9DDFC700C98A94 /* Info.plist */,
 				1C42D4FF1FB990C200990CAC /* DataHolder.swift */,
-				1C42D5011FB992BA00990CAC /* usuarios.swift */,
 				1C42D5031FB9943700990CAC /* VCRegistroViewController.swift */,
 				1C42D5051FB9950000990CAC /* Login.swift */,
-				1C3C4C351FBB1A7B005A83FA /* CompruebaViewController.swift */,
+				994F6CD31FBB543900699C84 /* VCRegistroEmpresaViewController.swift */,
+				99EF28681FC338BD00B7B75B /* OfertasVC.swift */,
+				99AA819C1FC44604001D3155 /* JobMeTraVC.swift */,
+				99AA819E1FC446F6001D3155 /* JobMeEmVC.swift */,
+				99AA81A01FC466CE001D3155 /* Empresas.swift */,
 			);
 			path = JobHub;
 			sourceTree = "<group>";
@@ -303,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7A96911F9DDFC700C98A94 /* LaunchScreen.storyboard in Resources */,
-				994F6CD01FBB420100699C84 /* GoogleService-Info.plist in Resources */,
+				994F6CD21FBB4EE100699C84 /* GoogleService-Info.plist in Resources */,
 				1C7A968E1F9DDFC700C98A94 /* Assets.xcassets in Resources */,
 				1C7A968C1F9DDFC700C98A94 /* Main.storyboard in Resources */,
 			);
@@ -333,23 +342,37 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JobHub/Pods-JobHub-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
-				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -478,9 +501,19 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JobHub/Pods-JobHub-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,10 +527,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C42D5021FB992BA00990CAC /* usuarios.swift in Sources */,
+				99AA819D1FC44604001D3155 /* JobMeTraVC.swift in Sources */,
+				99AA81A11FC466CE001D3155 /* Empresas.swift in Sources */,
 				1C7A96891F9DDFC700C98A94 /* ViewController.swift in Sources */,
-				1C3C4C361FBB1A7B005A83FA /* CompruebaViewController.swift in Sources */,
 				1C42D5001FB990C200990CAC /* DataHolder.swift in Sources */,
+				99AA819F1FC446F6001D3155 /* JobMeEmVC.swift in Sources */,
+				99EF28691FC338BD00B7B75B /* OfertasVC.swift in Sources */,
+				994F6CD41FBB543900699C84 /* VCRegistroEmpresaViewController.swift in Sources */,
 				1C42D5061FB9950000990CAC /* Login.swift in Sources */,
 				1C7A96871F9DDFC700C98A94 /* AppDelegate.swift in Sources */,
 				1C42D5041FB9943700990CAC /* VCRegistroViewController.swift in Sources */,

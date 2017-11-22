@@ -22,8 +22,10 @@ class DataHolder: NSObject {
     var Pass:String?
     var Uss:String?
     var firStorage:Storage?
-    var arUsuarios:Array<usuarios>!
+   
     var firStorageRef:StorageReference!
+    var contadorOferta: Int?
+    
     
     override init (){
         

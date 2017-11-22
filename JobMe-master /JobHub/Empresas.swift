@@ -9,5 +9,11 @@
 import UIKit
 
 class Empresas: NSObject {
+    var sVa:String?
+    var Ofertas:Array<Any>?
+    
+    init(valores:[String:AnyObject]) {
+        Ofertas=(valores ["Ofertas"] as? Array<Any>)
+    }
 
 }

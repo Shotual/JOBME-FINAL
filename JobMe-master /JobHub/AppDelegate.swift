@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    DataHolder.sharedInstance.initFirebase()
-    return true
+        print("!!!!!")
+        //FirebaseApp.configure()
+        
+        DataHolder.sharedInstance.initFirebase()
+        
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -6,6 +6,7 @@ target 'JobHub' do
   use_frameworks!
   
   # Pods for JobHub
+  pod 'FirebaseUI'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod 'Firebase/Database'
@@ -13,7 +14,7 @@ target 'JobHub' do
   pod 'Firebase/Storage'
   
   # Pods for JobHub
-  pod 'LinkedinSwift', '~> 1.6.6'
+ 
 
   target 'JobHubTests' do
     inherit! :search_paths
